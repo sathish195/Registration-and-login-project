@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body bgcolor="yellow">
+<form action="./reg/" method="post">
+    {% csrf_token %}
+    {{ reg_form.as_p }}
+<input type="submit" value="reg">
+</form>
+
+</body>
+</html> 
